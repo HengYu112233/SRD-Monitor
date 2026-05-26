@@ -16,13 +16,14 @@
 4. 跨语言深度数据分析：无缝对接 Python 生态，读取本地 .db 文件自动生成运行统计报告并复刻完整的动力学波形。
 
 ## 4. 目录结构
+```text
 SRD-Monitor/
-├── CMakeLists.txt (项目构建配置文件)
-├── data_analysis.py (Python 数据分析与可视化脚本)
-└── src/ (C++ 源代码文件夹)
-    ├── main.cpp (程序入口主文件)
-    ├── MainWindow.h (主窗口结构声明头文件)
-    └── MainWindow.cpp (界面布局与核心业务实现文件)
+├── CMakeLists.txt         # 项目构建配置文件
+├── data_analysis.py       # Python 数据分析与可视化脚本
+└── src/                   # C++ 源代码目录
+    ├── main.cpp           # 程序入口主文件
+    ├── MainWindow.h       # 主窗口结构声明头文件
+    └── MainWindow.cpp     # 界面布局与核心业务实现文件
 
 ## 5. 编译与运行指南
 1. 环境依赖：确保本地已配置 CMake、MinGW 64-bit 编译器以及 Qt 5.12.11 开发库。
