@@ -1,0 +1,4 @@
+D:/SRD-Monitor/build/CMakeFiles/SRDMonitor.dir
+D:/SRD-Monitor/build/CMakeFiles/edit_cache.dir
+D:/SRD-Monitor/build/CMakeFiles/rebuild_cache.dir
+D:/SRD-Monitor/build/CMakeFiles/SRDMonitor_autogen.dir

@@ -1,0 +1,3353 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/mingw32-make.exe.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Qt5/Tools/mingw730_64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/SRD-Monitor/build/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/ar.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/ranlib.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/strip.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/ld.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/nm.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/objdump.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/objcopy.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/readelf.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/dlltool.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/addr2line.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/tapi.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/tapi.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/tapi"
+      - "C:/Program Files/Java/jdk-17/bin/tapi.com"
+      - "C:/Program Files/Java/jdk-17/bin/tapi.exe"
+      - "C:/Program Files/Java/jdk-17/bin/tapi"
+      - "D:/python310/Scripts/tapi.com"
+      - "D:/python310/Scripts/tapi.exe"
+      - "D:/python310/Scripts/tapi"
+      - "D:/python310/tapi.com"
+      - "D:/python310/tapi.exe"
+      - "D:/python310/tapi"
+      - "D:/python314/Scripts/tapi.com"
+      - "D:/python314/Scripts/tapi.exe"
+      - "D:/python314/Scripts/tapi"
+      - "D:/python314/tapi.com"
+      - "D:/python314/tapi.exe"
+      - "D:/python314/tapi"
+      - "D:/Bin/tapi.com"
+      - "D:/Bin/tapi.exe"
+      - "D:/Bin/tapi"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/tapi"
+      - "C:/Program Files/Bandizip/tapi.com"
+      - "C:/Program Files/Bandizip/tapi.exe"
+      - "C:/Program Files/Bandizip/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi"
+      - "E:/\u968f\u4fbf/tapi.com"
+      - "E:/\u968f\u4fbf/tapi.exe"
+      - "E:/\u968f\u4fbf/tapi"
+      - "D:/SRD-Monitor/build/E/tapi.com"
+      - "D:/SRD-Monitor/build/E/tapi.exe"
+      - "D:/SRD-Monitor/build/E/tapi"
+      - "/\u968f\u4fbf/udiet/tapi.com"
+      - "/\u968f\u4fbf/udiet/tapi.exe"
+      - "/\u968f\u4fbf/udiet/tapi"
+      - "/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "D:/Env/apache-maven-3.9.14/bin/tapi.com"
+      - "D:/Env/apache-maven-3.9.14/bin/tapi.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/tapi.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/tapi.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/tapi"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/tapi.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/tapi.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/tapi"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/tapi.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/tapi.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/tapi"
+      - "E:/Microsoft VS Code/bin/tapi.com"
+      - "E:/Microsoft VS Code/bin/tapi.exe"
+      - "E:/Microsoft VS Code/bin/tapi"
+      - "C:/Users/97311/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/97311/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-7.3"
+      - "gcc-ar-7"
+      - "gcc-ar7"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar-7.3.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar-7.3.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar-7.3"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar-7.3.com"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar-7.3.exe"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar-7.3"
+      - "D:/python310/Scripts/gcc-ar-7.3.com"
+      - "D:/python310/Scripts/gcc-ar-7.3.exe"
+      - "D:/python310/Scripts/gcc-ar-7.3"
+      - "D:/python310/gcc-ar-7.3.com"
+      - "D:/python310/gcc-ar-7.3.exe"
+      - "D:/python310/gcc-ar-7.3"
+      - "D:/python314/Scripts/gcc-ar-7.3.com"
+      - "D:/python314/Scripts/gcc-ar-7.3.exe"
+      - "D:/python314/Scripts/gcc-ar-7.3"
+      - "D:/python314/gcc-ar-7.3.com"
+      - "D:/python314/gcc-ar-7.3.exe"
+      - "D:/python314/gcc-ar-7.3"
+      - "D:/Bin/gcc-ar-7.3.com"
+      - "D:/Bin/gcc-ar-7.3.exe"
+      - "D:/Bin/gcc-ar-7.3"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-7.3.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-7.3.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-7.3"
+      - "C:/Windows/System32/gcc-ar-7.3.com"
+      - "C:/Windows/System32/gcc-ar-7.3.exe"
+      - "C:/Windows/System32/gcc-ar-7.3"
+      - "C:/Windows/gcc-ar-7.3.com"
+      - "C:/Windows/gcc-ar-7.3.exe"
+      - "C:/Windows/gcc-ar-7.3"
+      - "C:/Windows/System32/wbem/gcc-ar-7.3.com"
+      - "C:/Windows/System32/wbem/gcc-ar-7.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-7.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-7.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-7.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-7.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-7.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-7.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-7.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-7.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-7.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-7.3"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar-7.3.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar-7.3.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar-7.3"
+      - "C:/Program Files/Bandizip/gcc-ar-7.3.com"
+      - "C:/Program Files/Bandizip/gcc-ar-7.3.exe"
+      - "C:/Program Files/Bandizip/gcc-ar-7.3"
+      - "C:/Program Files/dotnet/gcc-ar-7.3.com"
+      - "C:/Program Files/dotnet/gcc-ar-7.3.exe"
+      - "C:/Program Files/dotnet/gcc-ar-7.3"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-7.3.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-7.3.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-7.3"
+      - "E:/\u968f\u4fbf/gcc-ar-7.3.com"
+      - "E:/\u968f\u4fbf/gcc-ar-7.3.exe"
+      - "E:/\u968f\u4fbf/gcc-ar-7.3"
+      - "D:/SRD-Monitor/build/E/gcc-ar-7.3.com"
+      - "D:/SRD-Monitor/build/E/gcc-ar-7.3.exe"
+      - "D:/SRD-Monitor/build/E/gcc-ar-7.3"
+      - "/\u968f\u4fbf/udiet/gcc-ar-7.3.com"
+      - "/\u968f\u4fbf/udiet/gcc-ar-7.3.exe"
+      - "/\u968f\u4fbf/udiet/gcc-ar-7.3"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar-7.3.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar-7.3.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar-7.3"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar-7.3.com"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar-7.3.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar-7.3"
+      - "C:/Program Files/nodejs/gcc-ar-7.3.com"
+      - "C:/Program Files/nodejs/gcc-ar-7.3.exe"
+      - "C:/Program Files/nodejs/gcc-ar-7.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-7.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-7.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-7.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-7.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-7.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-7.3"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar-7.3.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar-7.3.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar-7.3"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar-7.3.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar-7.3.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar-7.3"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar-7.3.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar-7.3.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar-7.3"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar-7.3.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar-7.3.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar-7.3"
+      - "E:/Microsoft VS Code/bin/gcc-ar-7.3.com"
+      - "E:/Microsoft VS Code/bin/gcc-ar-7.3.exe"
+      - "E:/Microsoft VS Code/bin/gcc-ar-7.3"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar-7.3.com"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar-7.3.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar-7.3"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar-7.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar-7.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar-7"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar-7.com"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar-7.exe"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar-7"
+      - "D:/python310/Scripts/gcc-ar-7.com"
+      - "D:/python310/Scripts/gcc-ar-7.exe"
+      - "D:/python310/Scripts/gcc-ar-7"
+      - "D:/python310/gcc-ar-7.com"
+      - "D:/python310/gcc-ar-7.exe"
+      - "D:/python310/gcc-ar-7"
+      - "D:/python314/Scripts/gcc-ar-7.com"
+      - "D:/python314/Scripts/gcc-ar-7.exe"
+      - "D:/python314/Scripts/gcc-ar-7"
+      - "D:/python314/gcc-ar-7.com"
+      - "D:/python314/gcc-ar-7.exe"
+      - "D:/python314/gcc-ar-7"
+      - "D:/Bin/gcc-ar-7.com"
+      - "D:/Bin/gcc-ar-7.exe"
+      - "D:/Bin/gcc-ar-7"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-7.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-7.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-7"
+      - "C:/Windows/System32/gcc-ar-7.com"
+      - "C:/Windows/System32/gcc-ar-7.exe"
+      - "C:/Windows/System32/gcc-ar-7"
+      - "C:/Windows/gcc-ar-7.com"
+      - "C:/Windows/gcc-ar-7.exe"
+      - "C:/Windows/gcc-ar-7"
+      - "C:/Windows/System32/wbem/gcc-ar-7.com"
+      - "C:/Windows/System32/wbem/gcc-ar-7.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-7"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-7.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-7.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-7"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-7.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-7.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-7"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar-7.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar-7.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar-7"
+      - "C:/Program Files/Bandizip/gcc-ar-7.com"
+      - "C:/Program Files/Bandizip/gcc-ar-7.exe"
+      - "C:/Program Files/Bandizip/gcc-ar-7"
+      - "C:/Program Files/dotnet/gcc-ar-7.com"
+      - "C:/Program Files/dotnet/gcc-ar-7.exe"
+      - "C:/Program Files/dotnet/gcc-ar-7"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-7.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-7.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-7"
+      - "E:/\u968f\u4fbf/gcc-ar-7.com"
+      - "E:/\u968f\u4fbf/gcc-ar-7.exe"
+      - "E:/\u968f\u4fbf/gcc-ar-7"
+      - "D:/SRD-Monitor/build/E/gcc-ar-7.com"
+      - "D:/SRD-Monitor/build/E/gcc-ar-7.exe"
+      - "D:/SRD-Monitor/build/E/gcc-ar-7"
+      - "/\u968f\u4fbf/udiet/gcc-ar-7.com"
+      - "/\u968f\u4fbf/udiet/gcc-ar-7.exe"
+      - "/\u968f\u4fbf/udiet/gcc-ar-7"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar-7.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar-7.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar-7"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar-7.com"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar-7.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar-7"
+      - "C:/Program Files/nodejs/gcc-ar-7.com"
+      - "C:/Program Files/nodejs/gcc-ar-7.exe"
+      - "C:/Program Files/nodejs/gcc-ar-7"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-7"
+      - "C:/Program Files/Git/cmd/gcc-ar-7.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-7.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-7"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar-7.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar-7.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar-7"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar-7.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar-7.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar-7"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar-7.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar-7.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar-7"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar-7.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar-7.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar-7"
+      - "E:/Microsoft VS Code/bin/gcc-ar-7.com"
+      - "E:/Microsoft VS Code/bin/gcc-ar-7.exe"
+      - "E:/Microsoft VS Code/bin/gcc-ar-7"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar-7.com"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar-7.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar-7"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar7.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar7.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar7"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar7.com"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar7.exe"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ar7"
+      - "D:/python310/Scripts/gcc-ar7.com"
+      - "D:/python310/Scripts/gcc-ar7.exe"
+      - "D:/python310/Scripts/gcc-ar7"
+      - "D:/python310/gcc-ar7.com"
+      - "D:/python310/gcc-ar7.exe"
+      - "D:/python310/gcc-ar7"
+      - "D:/python314/Scripts/gcc-ar7.com"
+      - "D:/python314/Scripts/gcc-ar7.exe"
+      - "D:/python314/Scripts/gcc-ar7"
+      - "D:/python314/gcc-ar7.com"
+      - "D:/python314/gcc-ar7.exe"
+      - "D:/python314/gcc-ar7"
+      - "D:/Bin/gcc-ar7.com"
+      - "D:/Bin/gcc-ar7.exe"
+      - "D:/Bin/gcc-ar7"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar7.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar7.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar7"
+      - "C:/Windows/System32/gcc-ar7.com"
+      - "C:/Windows/System32/gcc-ar7.exe"
+      - "C:/Windows/System32/gcc-ar7"
+      - "C:/Windows/gcc-ar7.com"
+      - "C:/Windows/gcc-ar7.exe"
+      - "C:/Windows/gcc-ar7"
+      - "C:/Windows/System32/wbem/gcc-ar7.com"
+      - "C:/Windows/System32/wbem/gcc-ar7.exe"
+      - "C:/Windows/System32/wbem/gcc-ar7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar7"
+      - "C:/Windows/System32/OpenSSH/gcc-ar7.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar7.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar7"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar7.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar7.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar7"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar7.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar7.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ar7"
+      - "C:/Program Files/Bandizip/gcc-ar7.com"
+      - "C:/Program Files/Bandizip/gcc-ar7.exe"
+      - "C:/Program Files/Bandizip/gcc-ar7"
+      - "C:/Program Files/dotnet/gcc-ar7.com"
+      - "C:/Program Files/dotnet/gcc-ar7.exe"
+      - "C:/Program Files/dotnet/gcc-ar7"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar7.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar7.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar7"
+      - "E:/\u968f\u4fbf/gcc-ar7.com"
+      - "E:/\u968f\u4fbf/gcc-ar7.exe"
+      - "E:/\u968f\u4fbf/gcc-ar7"
+      - "D:/SRD-Monitor/build/E/gcc-ar7.com"
+      - "D:/SRD-Monitor/build/E/gcc-ar7.exe"
+      - "D:/SRD-Monitor/build/E/gcc-ar7"
+      - "/\u968f\u4fbf/udiet/gcc-ar7.com"
+      - "/\u968f\u4fbf/udiet/gcc-ar7.exe"
+      - "/\u968f\u4fbf/udiet/gcc-ar7"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar7.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar7.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ar7"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar7.com"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar7.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ar7"
+      - "C:/Program Files/nodejs/gcc-ar7.com"
+      - "C:/Program Files/nodejs/gcc-ar7.exe"
+      - "C:/Program Files/nodejs/gcc-ar7"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar7"
+      - "C:/Program Files/Git/cmd/gcc-ar7.com"
+      - "C:/Program Files/Git/cmd/gcc-ar7.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar7"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar7.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar7.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ar7"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar7.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar7.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ar7"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar7.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar7.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ar7"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar7.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar7.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ar7"
+      - "E:/Microsoft VS Code/bin/gcc-ar7.com"
+      - "E:/Microsoft VS Code/bin/gcc-ar7.exe"
+      - "E:/Microsoft VS Code/bin/gcc-ar7"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar7.com"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar7.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ar7"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ar.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-7.3"
+      - "gcc-ranlib-7"
+      - "gcc-ranlib7"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib-7.3.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib-7.3.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib-7.3"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib-7.3.com"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib-7.3"
+      - "D:/python310/Scripts/gcc-ranlib-7.3.com"
+      - "D:/python310/Scripts/gcc-ranlib-7.3.exe"
+      - "D:/python310/Scripts/gcc-ranlib-7.3"
+      - "D:/python310/gcc-ranlib-7.3.com"
+      - "D:/python310/gcc-ranlib-7.3.exe"
+      - "D:/python310/gcc-ranlib-7.3"
+      - "D:/python314/Scripts/gcc-ranlib-7.3.com"
+      - "D:/python314/Scripts/gcc-ranlib-7.3.exe"
+      - "D:/python314/Scripts/gcc-ranlib-7.3"
+      - "D:/python314/gcc-ranlib-7.3.com"
+      - "D:/python314/gcc-ranlib-7.3.exe"
+      - "D:/python314/gcc-ranlib-7.3"
+      - "D:/Bin/gcc-ranlib-7.3.com"
+      - "D:/Bin/gcc-ranlib-7.3.exe"
+      - "D:/Bin/gcc-ranlib-7.3"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-7.3.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-7.3"
+      - "C:/Windows/System32/gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/gcc-ranlib-7.3"
+      - "C:/Windows/gcc-ranlib-7.3.com"
+      - "C:/Windows/gcc-ranlib-7.3.exe"
+      - "C:/Windows/gcc-ranlib-7.3"
+      - "C:/Windows/System32/wbem/gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-7.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-7.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-7.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-7.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-7.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-7.3"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib-7.3.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib-7.3"
+      - "C:/Program Files/Bandizip/gcc-ranlib-7.3.com"
+      - "C:/Program Files/Bandizip/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Bandizip/gcc-ranlib-7.3"
+      - "C:/Program Files/dotnet/gcc-ranlib-7.3.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-7.3"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-7.3.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-7.3"
+      - "E:/\u968f\u4fbf/gcc-ranlib-7.3.com"
+      - "E:/\u968f\u4fbf/gcc-ranlib-7.3.exe"
+      - "E:/\u968f\u4fbf/gcc-ranlib-7.3"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib-7.3.com"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib-7.3.exe"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib-7.3"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib-7.3.com"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib-7.3.exe"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib-7.3"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-7.3.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-7.3.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-7.3"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib-7.3.com"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib-7.3.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib-7.3"
+      - "C:/Program Files/nodejs/gcc-ranlib-7.3.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-7.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-7.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-7.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-7.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-7.3"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib-7.3.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib-7.3.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib-7.3"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib-7.3.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib-7.3.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib-7.3"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-7.3.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-7.3.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-7.3"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib-7.3.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib-7.3.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib-7.3"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib-7.3.com"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib-7.3.exe"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib-7.3"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib-7.3.com"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib-7.3.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib-7.3"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib-7.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib-7.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib-7"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib-7.com"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib-7.exe"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib-7"
+      - "D:/python310/Scripts/gcc-ranlib-7.com"
+      - "D:/python310/Scripts/gcc-ranlib-7.exe"
+      - "D:/python310/Scripts/gcc-ranlib-7"
+      - "D:/python310/gcc-ranlib-7.com"
+      - "D:/python310/gcc-ranlib-7.exe"
+      - "D:/python310/gcc-ranlib-7"
+      - "D:/python314/Scripts/gcc-ranlib-7.com"
+      - "D:/python314/Scripts/gcc-ranlib-7.exe"
+      - "D:/python314/Scripts/gcc-ranlib-7"
+      - "D:/python314/gcc-ranlib-7.com"
+      - "D:/python314/gcc-ranlib-7.exe"
+      - "D:/python314/gcc-ranlib-7"
+      - "D:/Bin/gcc-ranlib-7.com"
+      - "D:/Bin/gcc-ranlib-7.exe"
+      - "D:/Bin/gcc-ranlib-7"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-7.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-7.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-7"
+      - "C:/Windows/System32/gcc-ranlib-7.com"
+      - "C:/Windows/System32/gcc-ranlib-7.exe"
+      - "C:/Windows/System32/gcc-ranlib-7"
+      - "C:/Windows/gcc-ranlib-7.com"
+      - "C:/Windows/gcc-ranlib-7.exe"
+      - "C:/Windows/gcc-ranlib-7"
+      - "C:/Windows/System32/wbem/gcc-ranlib-7.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-7.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-7"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-7.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-7.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-7"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-7.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-7.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-7"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib-7.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib-7.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib-7"
+      - "C:/Program Files/Bandizip/gcc-ranlib-7.com"
+      - "C:/Program Files/Bandizip/gcc-ranlib-7.exe"
+      - "C:/Program Files/Bandizip/gcc-ranlib-7"
+      - "C:/Program Files/dotnet/gcc-ranlib-7.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-7.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-7"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-7.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-7.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-7"
+      - "E:/\u968f\u4fbf/gcc-ranlib-7.com"
+      - "E:/\u968f\u4fbf/gcc-ranlib-7.exe"
+      - "E:/\u968f\u4fbf/gcc-ranlib-7"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib-7.com"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib-7.exe"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib-7"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib-7.com"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib-7.exe"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib-7"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-7.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-7.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-7"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib-7.com"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib-7.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib-7"
+      - "C:/Program Files/nodejs/gcc-ranlib-7.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-7.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-7"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-7"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-7.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-7.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-7"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib-7.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib-7.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib-7"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib-7.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib-7.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib-7"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-7.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-7.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-7"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib-7.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib-7.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib-7"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib-7.com"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib-7.exe"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib-7"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib-7.com"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib-7.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib-7"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib7.com"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib7.exe"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib7"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib7.com"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib7.exe"
+      - "C:/Program Files/Java/jdk-17/bin/gcc-ranlib7"
+      - "D:/python310/Scripts/gcc-ranlib7.com"
+      - "D:/python310/Scripts/gcc-ranlib7.exe"
+      - "D:/python310/Scripts/gcc-ranlib7"
+      - "D:/python310/gcc-ranlib7.com"
+      - "D:/python310/gcc-ranlib7.exe"
+      - "D:/python310/gcc-ranlib7"
+      - "D:/python314/Scripts/gcc-ranlib7.com"
+      - "D:/python314/Scripts/gcc-ranlib7.exe"
+      - "D:/python314/Scripts/gcc-ranlib7"
+      - "D:/python314/gcc-ranlib7.com"
+      - "D:/python314/gcc-ranlib7.exe"
+      - "D:/python314/gcc-ranlib7"
+      - "D:/Bin/gcc-ranlib7.com"
+      - "D:/Bin/gcc-ranlib7.exe"
+      - "D:/Bin/gcc-ranlib7"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib7.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib7.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib7"
+      - "C:/Windows/System32/gcc-ranlib7.com"
+      - "C:/Windows/System32/gcc-ranlib7.exe"
+      - "C:/Windows/System32/gcc-ranlib7"
+      - "C:/Windows/gcc-ranlib7.com"
+      - "C:/Windows/gcc-ranlib7.exe"
+      - "C:/Windows/gcc-ranlib7"
+      - "C:/Windows/System32/wbem/gcc-ranlib7.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib7.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib7"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib7.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib7.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib7"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib7.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib7.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib7"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib7.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib7.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gcc-ranlib7"
+      - "C:/Program Files/Bandizip/gcc-ranlib7.com"
+      - "C:/Program Files/Bandizip/gcc-ranlib7.exe"
+      - "C:/Program Files/Bandizip/gcc-ranlib7"
+      - "C:/Program Files/dotnet/gcc-ranlib7.com"
+      - "C:/Program Files/dotnet/gcc-ranlib7.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib7"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib7.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib7.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib7"
+      - "E:/\u968f\u4fbf/gcc-ranlib7.com"
+      - "E:/\u968f\u4fbf/gcc-ranlib7.exe"
+      - "E:/\u968f\u4fbf/gcc-ranlib7"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib7.com"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib7.exe"
+      - "D:/SRD-Monitor/build/E/gcc-ranlib7"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib7.com"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib7.exe"
+      - "/\u968f\u4fbf/udiet/gcc-ranlib7"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib7.com"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib7.exe"
+      - "/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib7"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib7.com"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib7.exe"
+      - "D:/Env/apache-maven-3.9.14/bin/gcc-ranlib7"
+      - "C:/Program Files/nodejs/gcc-ranlib7.com"
+      - "C:/Program Files/nodejs/gcc-ranlib7.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib7"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib7"
+      - "C:/Program Files/Git/cmd/gcc-ranlib7.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib7.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib7"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib7.com"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib7.exe"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/gcc-ranlib7"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib7.com"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib7.exe"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/gcc-ranlib7"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib7.com"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib7.exe"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/gcc-ranlib7"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib7.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib7.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/gcc-ranlib7"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib7.com"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib7.exe"
+      - "E:/Microsoft VS Code/bin/gcc-ranlib7"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib7.com"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib7.exe"
+      - "C:/Users/97311/AppData/Roaming/npm/gcc-ranlib7"
+      - "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "D:/python310/Scripts/"
+      - "D:/python310/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "D:/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "E:/\u968f\u4fbf/"
+      - "D:/SRD-Monitor/build/E/"
+      - "/\u968f\u4fbf/udiet/"
+      - "/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Env/apache-maven-3.9.14/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Qt5/5.12.11/mingw73_64/bin/"
+      - "C:/Users/97311/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/97311/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/97311/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/SRDMonitor/bin/"
+      - "C:/Program Files (x86)/SRDMonitor/sbin/"
+      - "C:/Program Files (x86)/SRDMonitor/"
+    searched_directories:
+      - "D:/Qt5/Tools/mingw730_64/bin/windres.com"
+    found: "D:/Qt5/Tools/mingw730_64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0"
+      binary: "D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0'
+        
+        Run Build Command(s): "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Qt5/Tools/mingw730_64/bin/mingw32-make.exe -f Makefile cmTC_78805/fast
+        D:/Qt5/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_78805.dir\\build.make CMakeFiles/cmTC_78805.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0'
+        Building CXX object CMakeFiles/cmTC_78805.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj -c "E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+        Thread model: posix
+        gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/cc1plus.exe -quiet -v -iprefix D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/ -D_REENTRANT E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\97311\\AppData\\Local\\Temp\\ccTYLsYx.s
+        GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"
+        ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"
+        ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include"
+        ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64C:/msys64-2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"
+        ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"
+        ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 86cf749bb84a0f12f1d61bff4e68fffd
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\97311\\AppData\\Local\\Temp\\ccTYLsYx.s
+        GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
+        COMPILER_PATH=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        Linking CXX executable cmTC_78805.exe
+        "E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_78805.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+        Thread model: posix
+        gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+        COMPILER_PATH=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78805.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\97311\\AppData\\Local\\Temp\\ccE4E8Wf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_78805.exe D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78805.dir/objects.a --no-whole-archive --out-implib libcmTC_78805.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+        collect2 version 7.3.0
+        D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\97311\\AppData\\Local\\Temp\\ccE4E8Wf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_78805.exe D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78805.dir/objects.a --no-whole-archive --out-implib libcmTC_78805.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+        GNU ld (GNU Binutils) 2.30
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78805.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        "E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_78805.dir/objects.a
+        D:\\Qt5\\Tools\\mingw730_64\\bin\\ar.exe qc CMakeFiles\\cmTC_78805.dir/objects.a @CMakeFiles\\cmTC_78805.dir\\objects1.rsp
+        D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_78805.dir/objects.a -Wl,--no-whole-archive -o cmTC_78805.exe -Wl,--out-implib,libcmTC_78805.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++]
+          add: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward]
+          add: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+          add: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+          add: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++]
+        collapse include dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward]
+        collapse include dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+        collapse include dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+        collapse include dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++;D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32;D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward;D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include;D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0']
+        ignore line: []
+        ignore line: [Run Build Command(s): "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Qt5/Tools/mingw730_64/bin/mingw32-make.exe -f Makefile cmTC_78805/fast]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_78805.dir\\build.make CMakeFiles/cmTC_78805.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/SRD-Monitor/build/CMakeFiles/CMakeScratch/TryCompile-393lb0']
+        ignore line: [Building CXX object CMakeFiles/cmTC_78805.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj -c "E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib ']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.3.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/cc1plus.exe -quiet -v -iprefix D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/ -D_REENTRANT E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\97311\\AppData\\Local\\Temp\\ccTYLsYx.s]
+        ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64C:/msys64-2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Qt5/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++]
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward]
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 86cf749bb84a0f12f1d61bff4e68fffd]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\97311\\AppData\\Local\\Temp\\ccTYLsYx.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
+        ignore line: [COMPILER_PATH=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78805.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking CXX executable cmTC_78805.exe]
+        ignore line: ["E:\\Visual Studio 2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_78805.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib ']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.3.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
+        ignore line: [COMPILER_PATH=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78805.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        link line: [ D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\97311\\AppData\\Local\\Temp\\ccE4E8Wf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_78805.exe D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78805.dir/objects.a --no-whole-archive --out-implib libcmTC_78805.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+          arg [D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\97311\\AppData\\Local\\Temp\\ccE4E8Wf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [--sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_78805.exe] ==> ignore
+          arg [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> obj [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o]
+          arg [-LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
+          arg [-LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc] ==> dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc]
+          arg [-LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib]
+          arg [-LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_78805.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_78805.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o] ==> obj [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+        ignore line: [collect2 version 7.3.0]
+        ignore line: [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=D:/Qt5/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\97311\\AppData\\Local\\Temp\\ccE4E8Wf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_78805.exe D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78805.dir/objects.a --no-whole-archive --out-implib libcmTC_78805.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+        linker tool for 'CXX': D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o]
+        collapse obj [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+        collapse library dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0]
+        collapse library dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc] ==> [D:/Qt5/Tools/mingw730_64/lib/gcc]
+        collapse library dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> [D:/Qt5/Tools/mingw730_64/lib]
+        collapse library dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt5/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> [D:/Qt5/Tools/mingw730_64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/lib/crt2.o;D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o;D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+        implicit dirs: [D:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0;D:/Qt5/Tools/mingw730_64/lib/gcc;D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/lib;D:/Qt5/Tools/mingw730_64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.30
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:95 (find_package)"
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:95 (find_package)"
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5Core"
+    configs:
+      -
+        filename: "Qt5CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5core-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "5.12.11"
+      version_complete: "5.12.11"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Core"
+      search_paths:
+        - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Gui/.."
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/qt5core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:95 (find_package)"
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5Gui"
+    configs:
+      -
+        filename: "Qt5GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "5.12.11"
+      version_complete: "5.12.11"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Gui"
+      search_paths:
+        - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Widgets/.."
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/qt5gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5Widgets"
+    configs:
+      -
+        filename: "Qt5WidgetsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5widgets-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Widgets"
+      search_paths:
+        - "D:/Qt5/5.12.11/mingw73_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/qt5widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5Charts"
+    configs:
+      -
+        filename: "Qt5ChartsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5charts-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Charts"
+      search_paths:
+        - "D:/Qt5/5.12.11/mingw73_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5ChartsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5charts-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5ChartsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/qt5charts-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5SerialPort"
+    configs:
+      -
+        filename: "Qt5SerialPortConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5serialport-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5SerialPort"
+      search_paths:
+        - "D:/Qt5/5.12.11/mingw73_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5SerialPortConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5serialport-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5SerialPortConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/qt5serialport-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5Sql"
+    configs:
+      -
+        filename: "Qt5SqlConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5sql-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Sql"
+      search_paths:
+        - "D:/Qt5/5.12.11/mingw73_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5SqlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5sql-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5SqlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/qt5sql-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:14 (find_package)"
+    name: "Qt5"
+    components:
+      -
+        name: "Widgets"
+        required: true
+        found: false
+      -
+        name: "Charts"
+        required: true
+        found: false
+      -
+        name: "SerialPort"
+        required: true
+        found: false
+      -
+        name: "Sql"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt5Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SRD-Monitor/build/CMakeFiles/pkgRedirects/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Qt5/5.12.11/mingw73_64/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Qt5/5.12.11/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake"
+      mode: "config"
+      version: "5.12.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Qt5/5.12.11/mingw73_64"
+      ENV{PATH}:
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "D:\\python310\\Scripts\\"
+        - "D:\\python310\\"
+        - "D:\\python314\\Scripts\\"
+        - "D:\\python314\\"
+        - "D:\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\\u968f\u4fbf"
+        - "E"
+        - "\\\u968f\u4fbf\\udiet"
+        - "E"
+        - "\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Env\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Qt5\\Tools\\mingw730_64\\bin"
+        - "D:\\Qt5\\5.12.11\\mingw73_64\\bin"
+        - "C:\\Users\\97311\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\97311\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\97311\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SRDMonitor"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Visual Studio 2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SRDMonitor"
+...

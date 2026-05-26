@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/SRD-Monitor/build",
+  "command": "D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB @CMakeFiles/SRDMonitor.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\SRDMonitor.dir\\SRDMonitor_autogen\\mocs_compilation.cpp.obj -c D:\\SRD-Monitor\\build\\SRDMonitor_autogen\\mocs_compilation.cpp",
+  "file": "D:/SRD-Monitor/build/SRDMonitor_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/SRDMonitor.dir/SRDMonitor_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/SRD-Monitor/build",
+  "command": "D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB @CMakeFiles/SRDMonitor.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\SRDMonitor.dir\\src\\main.cpp.obj -c D:\\SRD-Monitor\\src\\main.cpp",
+  "file": "D:/SRD-Monitor/src/main.cpp",
+  "output": "CMakeFiles/SRDMonitor.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/SRD-Monitor/build",
+  "command": "D:\\Qt5\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB @CMakeFiles/SRDMonitor.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\SRDMonitor.dir\\src\\MainWindow.cpp.obj -c D:\\SRD-Monitor\\src\\MainWindow.cpp",
+  "file": "D:/SRD-Monitor/src/MainWindow.cpp",
+  "output": "CMakeFiles/SRDMonitor.dir/src/MainWindow.cpp.obj"
+}
+]
